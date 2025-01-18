@@ -9,6 +9,8 @@ Case Study - Gas Utility Company is a detailed case study on the problem.
 
 Application Structure (image) - Django App's Structure. 
 
+In case pdf is not accessible visit - https://drive.google.com/file/d/1zOC8nKd1He9xTGmXaMU0NYE02hVWbw7C/view?usp=sharing
+
 
 # Case Study 
 
