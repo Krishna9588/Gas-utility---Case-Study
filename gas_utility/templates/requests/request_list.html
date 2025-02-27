@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>My Service Requests</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Service Type</th>
+            <th>Status</th>
+            <th>Created At</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for request in requests %}
+        <tr>
+            <td>{{ request.service_type }}</td>
+            <td>{{ request.status }}</td>
+            <td>{{ request.created_at }}</td>
+            <td><a href="{% url 'request_detail' request.id %}">View Details</a></td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="4">No service requests found.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<a href="{% url 'submit_request' %}">Submit a New Request</a>
+{% endblock %}
