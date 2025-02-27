@@ -16,7 +16,7 @@ In case the pdf is not accessible [Case Study](https://drive.google.com/file/d/1
 
 
 ~~~
-Note: The Application is under development so there might be some files in this repo. which are missing or empty.
-      soon they will be updated.
+Note: The Application is under development so there might be some files in this repo.
+      which are missing or empty soon they will be updated.
 ~~~
 ---
